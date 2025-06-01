@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:text="Escolha um horário:"
+        android:textColor="#FFD700"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp" />
+
+    <TextView
+        android:text="06 de julho\namanhã"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <GridLayout
+        android:id="@+id/gridHorarios"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:columnCount="4"
+        android:paddingTop="16dp">
+
+        <!-- Simulação de horários (estáticos) -->
+        <Button style="@style/HorarioLivre" android:text="08:30" />
+        <Button style="@style/HorarioLivre" android:text="09:00" />
+        <Button style="@style/HorarioLivre" android:text="09:30" />
+        <Button style="@style/HorarioLivre" android:text="10:00" />
+
+        <Button style="@style/HorarioLivre" android:text="10:30" />
+        <Button style="@style/HorarioLivre" android:text="11:00" />
+        <Button style="@style/HorarioLivre" android:text="11:30" />
+        <Button style="@style/HorarioLivre" android:text="12:00" />
+
+        <Button style="@style/HorarioLivre" android:text="12:30" />
+        <Button style="@style/HorarioLivre" android:text="13:00" />
+
+        <Button
+            style="@style/HorarioEscolhido"
+            android:layout_height="82dp"
+            android:text="13:30" />
+
+        <Button style="@style/HorarioLivre" android:text="14:00" />
+        <Button style="@style/HorarioLivre" android:text="14:30" />
+        <Button style="@style/HorarioLivre" android:text="15:00" />
+
+        <Button
+            style="@style/HorarioLivre"
+            android:layout_height="83dp"
+            android:text="15:30" />
+        <Button style="@style/HorarioLivre" android:text="16:00" />
+        <Button style="@style/HorarioLivre" android:text="16:30" />
+        <Button style="@style/HorarioLivre" android:text="17:00" />
+        <Button style="@style/HorarioLivre" android:text="17:30" />
+        <Button style="@style/HorarioLivre" android:text="18:00" />
+        <Button style="@style/HorarioLivre" android:text="18:30" />
+        <Button style="@style/HorarioLivre" android:text="19:00" />
+        <Button style="@style/HorarioLivre" android:text="19:30" />
+        <Button style="@style/HorarioLivre" android:text="20:00" />
+
+        <!-- Você pode continuar se quiser -->
+    </GridLayout>
+
+    <TextView
+        android:text="13:30 às 14:00 / R$ 35,00"
+        android:background="#1E1E1E"
+        android:textColor="#FFFFFF"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnAvancar"
+        android:text="Avançar >"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFD700"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>
