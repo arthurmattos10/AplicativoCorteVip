@@ -46,10 +46,7 @@ git clone https://github.com/arthurmattos10/CorteVip.git
 Depois disso, basta rodar o projeto em um emulador ou dispositivo real.
 
 🤝 Integrantes
-Arthur Matos Rocha
-Guilherme De Freitas Fracasso 
-Enzo Pelakoski Cavinato
-Matheus Barros Ferreira
+Arthur Matos Rocha, Guilherme De Freitas Fracasso, Enzo Pelakoski Cavinato e Matheus Barros Ferreira
 
 📄 Licença
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais informações.
