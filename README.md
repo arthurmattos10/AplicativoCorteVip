@@ -45,7 +45,7 @@ git clone https://github.com/arthurmattos10/CorteVip.git
 # Abra o projeto no Android Studio e aguarde a sincronização do Gradle
 Depois disso, basta rodar o projeto em um emulador ou dispositivo real.
 
-🤝 Integrantes
+🤝 Integrantes:
 Arthur Matos Rocha, Guilherme De Freitas Fracasso, Enzo Pelakoski Cavinato e Matheus Barros Ferreira
 
 📄 Licença
