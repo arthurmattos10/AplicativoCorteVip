@@ -6,10 +6,121 @@
     android:gravity="center"
     android:background="#000000">
 
-    <TextView
-        android:text="Tela de Serviços"
-        android:textColor="#FFD700"
-        android:textSize="24sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-</LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Escolha um ou mais serviços:"
+            android:textColor="#FFC107"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:padding="16dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Serviços simulados -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Corte De Cabelo\n30 min / R$ 35,00"
+                    android:textColor="#FFC107"
+                    android:padding="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Barba Completo\n30 min / R$ 35,00"
+                    android:textColor="#FFF"
+                    android:padding="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Acabamento De Cabelo\n15 min / R$ 15,00"
+                    android:textColor="#FFC107"
+                    android:padding="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sobrancelha\n15 min / R$ 15,00"
+                    android:textColor="#FFC107"
+                    android:padding="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Acabamento De Barba\n15 min / R$ 15,00"
+                    android:textColor="#FFC107"
+                    android:padding="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Depilação Orelha\n15 min / R$ 20,00"
+                    android:textColor="#FFC107"
+                    android:padding="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Depilação Nariz\n15 min / R$ 20,00"
+                    android:textColor="#FFC107"
+                    android:padding="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Só Freestyle\n20 min / R$ 20,00"
+                    android:textColor="#FFC107"
+                    android:padding="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hidratação\n30 min / R$ 20,00"
+                    android:textColor="#FFC107"
+                    android:padding="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Platinado\n1:30 h / R$ 150,00"
+                    android:textColor="#FFC107"
+                    android:padding="8dp" />
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#FFC107"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tv_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total: R$ 35,00 / 30 min"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_avancar_servico"
+                android:layout_width="242dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="Avançar >"
+                android:textColor="#000"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+

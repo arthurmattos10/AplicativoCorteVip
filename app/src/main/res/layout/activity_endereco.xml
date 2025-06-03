@@ -7,9 +7,45 @@
     android:background="#000000">
 
     <TextView
-        android:text="@string/tela_de_endere_o"
-        android:textColor="#FFD700"
-        android:textSize="24sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nossas Unidades:"
+        android:textColor="#FFC107"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:padding="16dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Serviços simulados -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UNIDADE SÃO PAULO\nRua Cubatão, 726 - Vila Mariana"
+                android:textColor="#FFC107"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UNIDADE FORTALEZA\nRua Francisco Vahldieck, 1413"
+                android:textColor="#FFC107"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UNIDADE VILA NOVA\nRua Almirante Barroso, 1015"
+                android:textColor="#FFC107"
+                android:padding="8dp" />
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>
