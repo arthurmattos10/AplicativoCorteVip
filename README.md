@@ -50,7 +50,7 @@ O projeto está sendo desenvolvido como parte da disciplina de **Desenvolvimento
 #### Passo a passo
 ```bash
 # Clone o repositório
-git clone https://github.com/cavinatto/Projeto-CorteVip.git
+git clone https://github.com/arthurmattos10/CorteVip.git
 
 # Abra o projeto no Android Studio e aguarde a sincronização do Gradle
 # Depois disso, basta rodar o projeto em um emulador ou dispositivo real.
